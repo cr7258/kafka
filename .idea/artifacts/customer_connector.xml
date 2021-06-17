@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="customer-connector">
+    <output-path>$PROJECT_DIR$/out/artifacts/customer_connector</output-path>
+    <root id="archive" name="customer-connector.jar">
+      <element id="module-output" name="kafka" />
+    </root>
+  </artifact>
+</component>

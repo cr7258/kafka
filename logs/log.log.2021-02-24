@@ -1,0 +1,496 @@
+[2021-02-24 11:30:41] ProducerConfig.main - INFO  - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.1.87:9092, 192.168.1.88:9092, 192.168.1.89:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 300
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2021-02-24 11:30:41] AppInfoParser.main - INFO  - Kafka version : 0.10.2.1
+[2021-02-24 11:30:41] AppInfoParser.main - INFO  - Kafka commitId : e89bffd6b2eff799
+[2021-02-24 11:32:31] ProducerConfig.Thread-0 - INFO  - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.1.87:9092, 192.168.1.88:9092, 192.168.1.89:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2021-02-24 11:32:31] AppInfoParser.Thread-0 - INFO  - Kafka version : 0.10.2.1
+[2021-02-24 11:32:31] AppInfoParser.Thread-0 - INFO  - Kafka commitId : e89bffd6b2eff799
+[2021-02-24 11:32:33] NetworkClient.kafka-producer-network-thread | producer-1 - WARN  - Error while fetching metadata with correlation id 2 : {test_kafka_game_x=LEADER_NOT_AVAILABLE}
+[2021-02-24 11:33:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:34:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:35:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:36:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:37:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:38:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:39:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:40:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:41:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:42:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:43:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:44:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:45:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:46:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:47:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:48:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:49:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:50:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:51:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:52:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:53:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:54:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:55:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:56:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:57:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:58:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 11:59:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:00:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:01:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:02:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:03:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:04:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:05:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:06:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:07:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:08:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:09:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:10:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:11:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:12:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:13:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:14:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:15:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:16:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:17:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:18:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:19:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:20:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:21:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:22:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:23:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:24:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:25:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:26:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:27:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:28:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:29:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:30:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:31:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:32:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:33:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:34:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:35:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:36:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:37:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:38:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:39:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:40:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:41:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:42:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:43:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:44:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:45:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:46:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:47:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:48:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:49:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:50:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:51:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:52:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:53:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:54:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:55:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:56:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:57:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:58:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 12:59:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:00:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:01:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:02:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:03:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:04:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:05:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:06:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:07:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:08:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:09:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:10:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:11:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:12:32] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-24 13:12:35] KafkaProducer.Thread-0 - INFO  - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+[2021-02-24 15:13:24] ProducerConfig.main - INFO  - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [11.8.36.125:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 300
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2021-02-24 15:13:24] AppInfoParser.main - INFO  - Kafka version : 0.10.2.1
+[2021-02-24 15:13:24] AppInfoParser.main - INFO  - Kafka commitId : e89bffd6b2eff799
+[2021-02-24 15:13:24] NetworkClient.kafka-producer-network-thread | producer-1 - WARN  - Error while fetching metadata with correlation id 1 : {my-replicated-topic=UNKNOWN_TOPIC_OR_PARTITION}
+[2021-02-24 15:13:25] NetworkClient.kafka-producer-network-thread | producer-1 - WARN  - Error while fetching metadata with correlation id 4 : {my-replicated-topic=UNKNOWN_TOPIC_OR_PARTITION}
+[2021-02-24 15:13:25] NetworkClient.kafka-producer-network-thread | producer-1 - WARN  - Error while fetching metadata with correlation id 6 : {my-replicated-topic=LEADER_NOT_AVAILABLE}
+[2021-02-24 15:13:31] KafkaProducer.main - INFO  - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+[2021-02-24 15:13:33] ProducerConfig.main - INFO  - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [11.8.36.125:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 300
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2021-02-24 15:13:33] AppInfoParser.main - INFO  - Kafka version : 0.10.2.1
+[2021-02-24 15:13:33] AppInfoParser.main - INFO  - Kafka commitId : e89bffd6b2eff799
+[2021-02-24 15:13:39] KafkaProducer.main - INFO  - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+[2021-02-24 15:14:13] ProducerConfig.main - INFO  - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [11.8.36.125:9092, 11.8.38.116:9092, 11.8.38.120:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 300
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2021-02-24 15:14:13] AppInfoParser.main - INFO  - Kafka version : 0.10.2.1
+[2021-02-24 15:14:13] AppInfoParser.main - INFO  - Kafka commitId : e89bffd6b2eff799
+[2021-02-24 15:14:20] KafkaProducer.main - INFO  - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+[2021-02-24 15:18:44] ProducerConfig.main - INFO  - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [11.8.36.125:9092, 11.8.38.116:9092, 11.8.38.120:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 300
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2021-02-24 15:18:44] AppInfoParser.main - INFO  - Kafka version : 0.10.2.1
+[2021-02-24 15:18:44] AppInfoParser.main - INFO  - Kafka commitId : e89bffd6b2eff799
+[2021-02-24 15:18:44] NetworkClient.kafka-producer-network-thread | producer-1 - WARN  - Error while fetching metadata with correlation id 2 : {demotopic=LEADER_NOT_AVAILABLE}
+[2021-02-24 15:18:50] KafkaProducer.main - INFO  - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+[2021-02-24 15:37:59] ProducerConfig.main - INFO  - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.1.87:9092, 192.168.1.88:9092, 192.168.1.89:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 300
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2021-02-24 15:37:59] AppInfoParser.main - INFO  - Kafka version : 0.10.2.1
+[2021-02-24 15:37:59] AppInfoParser.main - INFO  - Kafka commitId : e89bffd6b2eff799
+[2021-02-24 15:38:00] NetworkClient.kafka-producer-network-thread | producer-1 - WARN  - Error while fetching metadata with correlation id 2 : {demotopic=LEADER_NOT_AVAILABLE}

@@ -1,0 +1,1 @@
+[2021-02-27 00:00:03] AbstractCoordinator.kafka-coordinator-heartbeat-thread | testGroup - INFO  - Marking the coordinator 11.8.38.120:9092 (id: 2147483645 rack: null) dead for group testGroup

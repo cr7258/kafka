@@ -1,0 +1,386 @@
+[2021-02-21 23:49:16] ProducerConfig.Thread-0 - INFO  - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.1.87:9092, 192.168.1.88:9092, 192.168.1.89:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2021-02-21 23:49:16] AppInfoParser.Thread-0 - INFO  - Kafka version : 0.10.2.1
+[2021-02-21 23:49:16] AppInfoParser.Thread-0 - INFO  - Kafka commitId : e89bffd6b2eff799
+[2021-02-21 23:49:20] KafkaProducer.Thread-0 - INFO  - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+[2021-02-21 23:49:45] ProducerConfig.Thread-0 - INFO  - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.1.87:9092, 192.168.1.88:9092, 192.168.1.89:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2021-02-21 23:49:45] AppInfoParser.Thread-0 - INFO  - Kafka version : 0.10.2.1
+[2021-02-21 23:49:45] AppInfoParser.Thread-0 - INFO  - Kafka commitId : e89bffd6b2eff799
+[2021-02-21 23:49:49] KafkaProducer.Thread-0 - INFO  - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+[2021-02-21 23:50:16] ProducerConfig.Thread-0 - INFO  - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.1.87:9092, 192.168.1.88:9092, 192.168.1.89:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2021-02-21 23:50:16] AppInfoParser.Thread-0 - INFO  - Kafka version : 0.10.2.1
+[2021-02-21 23:50:16] AppInfoParser.Thread-0 - INFO  - Kafka commitId : e89bffd6b2eff799
+[2021-02-21 23:50:18] NetworkClient.kafka-producer-network-thread | producer-1 - WARN  - Error while fetching metadata with correlation id 2 : {test_kafka_game_x2=LEADER_NOT_AVAILABLE}
+[2021-02-21 23:51:17] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-21 23:52:17] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-21 23:53:17] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-21 23:54:17] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-21 23:55:09] ProducerConfig.Thread-0 - INFO  - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.1.87:9092, 192.168.1.88:9092, 192.168.1.89:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2021-02-21 23:55:09] AppInfoParser.Thread-0 - INFO  - Kafka version : 0.10.2.1
+[2021-02-21 23:55:09] AppInfoParser.Thread-0 - INFO  - Kafka commitId : e89bffd6b2eff799
+[2021-02-21 23:55:13] KafkaProducer.Thread-0 - INFO  - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 39 record(s) for test_kafka_game_x-1: 30032 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 31 record(s) for test_kafka_game_x-2: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:55:40] JProducer.kafka-producer-network-thread | producer-1 - ERROR - Send error, msg is Expiring 30 record(s) for test_kafka_game_x-0: 30028 ms has passed since batch creation plus linger time
+[2021-02-21 23:56:08] ProducerConfig.Thread-0 - INFO  - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.1.87:9092, 192.168.1.88:9092, 192.168.1.89:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2021-02-21 23:56:08] AppInfoParser.Thread-0 - INFO  - Kafka version : 0.10.2.1
+[2021-02-21 23:56:08] AppInfoParser.Thread-0 - INFO  - Kafka commitId : e89bffd6b2eff799
+[2021-02-21 23:56:09] NetworkClient.kafka-producer-network-thread | producer-1 - WARN  - Error while fetching metadata with correlation id 2 : {test_kafka_game_x=LEADER_NOT_AVAILABLE}
+[2021-02-21 23:57:08] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
+[2021-02-21 23:58:08] JProducer.Thread-0 - ERROR - Send error, msg is Failed to update metadata after 60000 ms.
